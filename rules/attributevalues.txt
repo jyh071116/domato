@@ -435,7 +435,7 @@
 
 <icon_value> = <attributestring>
 
-#<id_value> = <elementid>
+<id_value> = <elementid>
 
 <incremental_value> = incremental
 
@@ -1350,3 +1350,16 @@
 <wrap_value> = hard
 <wrap_value> = off
 
+<autocorrect_value> = ""
+<autocorrect_value> = on
+<autocorrect_value> = off
+
+<enterkeyhint_value> = enter
+<enterkeyhint_value> = done
+<enterkeyhint_value> = go
+<enterkeyhint_value> = next
+<enterkeyhint_value> = search
+<enterkeyhint_value> = previous
+<enterkeyhint_value> = send
+
+<exportparts_value> = <elementid>

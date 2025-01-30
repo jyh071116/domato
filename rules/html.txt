@@ -28,7 +28,7 @@
 <inputtype> = "date"
 <inputtype> = "datetime"
 <inputtype> = "datetime-local"
-<inputtype> = "emailNew"
+<inputtype> = "email"
 <inputtype> = "file"
 <inputtype> = "hidden"
 <inputtype> = "image"
@@ -145,8 +145,6 @@
 <menuchild> = <HTMLMenuElement>
 
 <paramelements> = <htmlsafestring min=32 max=126>
-<paramelements> = <newline><HTMLParamElement><newline>
-<paramelements> = <newline><HTMLParamElement><newline><HTMLParamElement><newline>
 
 <mediachildren> = <htmlsafestring min=32 max=126>
 <mediachildren> = <newline><mediachild><newline>
@@ -175,12 +173,10 @@
 <element> = <HTMLDataListElement>
 <element> = <HTMLDetailsElement>
 <element> = <HTMLDialogElement>
-<element> = <HTMLDirectoryElement>
 <element> = <HTMLDivElement>
 <element> = <HTMLDListElement>
 <element> = <HTMLEmbedElement>
 #<element> = <HTMLFieldSetElement>
-<element> = <HTMLFontElement>
 <element> = <HTMLFormElement>
 #<element> = <HTMLFrameElement>
 #<element> = <HTMLFrameSetElement>
@@ -195,7 +191,6 @@
 #<element> = <HTMLLIElement>
 <element> = <HTMLLinkElement>
 <element> = <HTMLMapElement>
-<element> = <HTMLMarqueeElement>
 <element> = <HTMLAudioElement>
 <element> = <HTMLMenuElement>
 <element> = <HTMLMetaElement>
@@ -207,7 +202,6 @@
 #<element> = <HTMLOptionElement>
 <element> = <HTMLOutputElement>
 <element> = <HTMLParagraphElement>
-#<element> = <HTMLParamElement>
 <element> = <HTMLPreElement>
 <element> = <HTMLProgressElement>
 <element> = <HTMLQuoteElement>
@@ -331,6 +325,7 @@
 <attribute> = <attribute_hreflang>
 <attribute> = <attribute_hspace>
 <attribute> = <attribute_icon>
+<attribute> = <attribute_id>
 <attribute> = <attribute_incremental>
 <attribute> = <attribute_indeterminate>
 <attribute> = <attribute_inner>
@@ -456,6 +451,9 @@
 <attribute> = <attribute_vspace>
 <attribute> = <attribute_width>
 <attribute> = <attribute_wrap>
+<attribute> = <attribute_autocorrect>
+<attribute> = <attribute_enterkeyhint>
+<attribute> = <attribute_exportparts>
 
 <attribute> = <attribute_eventhandler>
 <attribute> = <attribute_eventhandler>
@@ -714,7 +712,7 @@
 <attribute_hspace> = hspace="<hspace_value>"
 <attribute_http-equiv> = http-equiv="<http-equiv_value>"
 <attribute_icon> = icon="<icon_value>"
-#<attribute_id> = id="<id_value>"
+<attribute_id> = id="<id_value>"
 <attribute_incremental> = incremental="<incremental_value>"
 <attribute_indeterminate> = indeterminate="<indeterminate_value>"
 <attribute_inner> = inner="<inner_value>"
@@ -840,6 +838,9 @@
 <attribute_vspace> = vspace="<vspace_value>"
 <attribute_width> = width="<width_value>"
 <attribute_wrap> = wrap="<wrap_value>"
+<attribute_autocorrect> = autocorrect="<autocorrect_value>"
+<attribute_enterkeyhint> = enterkeyhint="<enterkeyhint_value>"
+<attribute_exportparts> = exportparts="<exportparts_value>"
 
 #event handlers
 <attribute_onabort> = onabort="<eventhandler>"
@@ -958,7 +959,6 @@
 
 <HTMLAnchorElement> = <lt>a <a_attributes> <attributes><gt><innerelements><lt>/a<gt>
 <otherelement> = <lt>abbr <abbr_attributes> <attributes><gt><innerelements><lt>/abbr<gt>
-<otherelement> = <lt>acronym <acronym_attributes> <attributes><gt><innerelements><lt>/acronym<gt>
 <otherelement> = <lt>address <address_attributes> <attributes><gt><innerelements><lt>/address<gt>
 <HTMLAppletElement> = <lt>applet <applet_attributes> <attributes><gt><htmlsafestring min=32 max=126><lt>/applet<gt>
 <HTMLAreaElement> = <lt>area <area_attributes> <attributes><gt><lt>/area<gt>
@@ -971,14 +971,12 @@
 <otherelement> = <lt>bdi <bdi_attributes> <attributes><gt><innerelements><lt>/bdi<gt>
 <otherelement> = <lt>bdo <bdo_attributes> <attributes><gt><innerelements><lt>/bdo<gt>
 <otherelement> = <lt>bgsound <attributes><gt><innerelements><lt>/bgsound<gt>
-<otherelement> = <lt>big <big_attributes> <attributes><gt><innerelements><lt>/big<gt>
 <otherelement> = <lt>blink <attributes><gt><innerelements><lt>/blink<gt>
 <otherelement> = <lt>blockquote <blockquote_attributes> <attributes><gt><innerelements><lt>/blockquote<gt>
 <HTMLBRElement> = <lt>br <br_attributes> <attributes><gt><lt>/br<gt>
 <HTMLButtonElement> = <lt>button <button_attributes> <attributes><gt><innerelements><lt>/button<gt>
 <HTMLCanvasElement> = <lt>canvas <canvas_attributes> <attributes><gt><innerelements><lt>/canvas<gt>
 <HTMLTableCaptionElement> = <lt>caption <caption_attributes> <attributes><gt><innerelements><lt>/caption<gt>
-<otherelement> = <lt>center <center_attributes> <attributes><gt><innerelements><lt>/center<gt>
 <otherelement> = <lt>cite <cite_attributes> <attributes><gt><innerelements><lt>/cite<gt>
 <otherelement> = <lt>code <code_attributes> <attributes><gt><innerelements><lt>/code<gt>
 <HTMLTableColElement> = <lt>col <col_attributes> <attributes><gt><innerelements><lt>/col<gt>
@@ -992,7 +990,6 @@
 <HTMLDetailsElement> = <lt>details <details_attributes> <attributes><gt><detailchildren><lt>/details<gt>
 <otherelement> = <lt>dfn <dfn_attributes> <attributes><gt><innerelements><lt>/dfn<gt>
 <HTMLDialogElement> = <lt>dialog <dialog_attributes> <attributes><gt><innerelements><lt>/dialog<gt>
-<HTMLDirectoryElement> = <lt>dir <dir_attributes> <attributes><gt><lielements><lt>/dir<gt>
 <HTMLDivElement> = <lt>div <div_attributes> <attributes><gt><innerelements><lt>/div<gt>
 <HTMLDListElement> = <lt>dl <dl_attributes> <attributes><gt><dlchildren><lt>/dl<gt>
 <dtelement> = <lt>dt <dt_attributes> <attributes><gt><innerelements><lt>/dt<gt>
@@ -1001,11 +998,8 @@
 <HTMLFieldSetElement> = <lt>fieldset <fieldset_attributes> <attributes><gt><formchildren><lt>/fieldset<gt>
 <otherelement> = <lt>figcaption <attributes><gt><innerelements><lt>/figcaption<gt>
 <otherelement> = <lt>figure <figure_attributes> <attributes><gt><innerelements><lt>/figure<gt>
-<HTMLFontElement> = <lt>font <font_attributes> <attributes><gt><innerelements><lt>/font<gt>
 <otherelement> = <lt>footer <footer_attributes> <attributes><gt><innerelements><lt>/footer<gt>
 <HTMLFormElement> = <lt>form <form_attributes> <attributes><gt><formchildren><lt>/form<gt>
-<HTMLFrameElement> = <lt>frame <frame_attributes> <attributes><gt><innerelements><lt>/frame<gt>
-<HTMLFrameSetElement> = <lt>frameset <frameset_attributes> <attributes><gt><frames><lt>/frameset<gt>
 <HTMLHeadingElement> = <lt>h1 <h1_attributes> <attributes><gt><innerelements><lt>/h1<gt>
 <HTMLHeadingElement> = <lt>h2 <h2_attributes> <attributes><gt><innerelements><lt>/h2<gt>
 <HTMLHeadingElement> = <lt>h3 <h3_attributes> <attributes><gt><innerelements><lt>/h3<gt>
@@ -1033,15 +1027,11 @@
 <otherelement> = <lt>main <main_attributes> <attributes><gt><innerelements><lt>/main<gt>
 <HTMLMapElement> = <lt>map <map_attributes> <attributes><gt><areaelements><lt>/map<gt>
 <otherelement> = <lt>mark <mark_attributes> <attributes><gt><innerelements><lt>/mark<gt>
-<HTMLMarqueeElement> = <lt>marquee <marquee_attributes> <attributes><gt><innerelements><lt>/marquee<gt>
 <HTMLMenuElement> = <lt>menu <menu_attributes> <attributes><gt><menuchildren><lt>/menu<gt>
 <menuitemelement> = <lt>menuitem <menuitem_attributes> <attributes><gt><innerelements><lt>/menuitem<gt>
 <HTMLMetaElement> = <lt>meta <meta_attributes> <attributes><gt><lt>/meta<gt>
 <HTMLMeterElement> = <lt>meter <meter_attributes> <attributes><gt><innerelements><lt>/meter<gt>
 <otherelement> = <lt>nav <nav_attributes> <attributes><gt><innerelements><lt>/nav<gt>
-<otherelement> = <lt>nobr <nobr_attributes> <attributes><gt><innerelements><lt>/nobr<gt>
-<otherelement> = <lt>noembed <attributes><gt><innerelements><lt>/noembed<gt>
-<otherelement> = <lt>noframes <noframes_attributes> <attributes><gt><htmlsafestring min=32 max=126><lt>/noframes<gt>
 <otherelement> = <lt>nolayer <attributes><gt><innerelements><lt>/nolayer<gt>
 <otherelement> = <lt>noscript <noscript_attributes> <attributes><gt><htmlsafestring min=32 max=126><lt>/noscript<gt>
 <HTMLObjectElement> = <lt>object <object_attributes> <attributes><gt><paramelements><lt>/object<gt>
@@ -1050,8 +1040,6 @@
 <HTMLOptionElement> = <lt>option <option_attributes> <attributes><gt><innerelements><lt>/option<gt>
 <HTMLOutputElement> = <lt>output <output_attributes> <attributes><gt><innerelements><lt>/output<gt>
 <HTMLParagraphElement> = <lt>p <p_attributes> <attributes><gt><innerelements><lt>/p<gt>
-<HTMLParamElement> = <lt>param <param_attributes> <attributes><gt><lt>/param<gt>
-#<otherelement> = <lt>plaintext <attributes><gt><innerelements><lt>/plaintext<gt>
 <HTMLPreElement> = <lt>pre <pre_attributes> <attributes><gt><innerelements><lt>/pre<gt>
 <HTMLProgressElement> = <lt>progress <progress_attributes> <attributes><gt><innerelements><lt>/progress<gt>
 <HTMLQuoteElement> = <lt>q <q_attributes> <attributes><gt><innerelements><lt>/q<gt>
@@ -1068,7 +1056,6 @@
 <HTMLSourceElement> = <lt>source <source_attributes> <attributes><gt><innerelements><lt>/source<gt>
 <otherelement> = <lt>spacer <spacer_attributes> <attributes><gt><innerelements><lt>/spacer<gt>
 <HTMLSpanElement> = <lt>span <span_attributes> <attributes><gt><innerelements><lt>/span<gt>
-<otherelement> = <lt>strike <strike_attributes> <attributes><gt><innerelements><lt>/strike<gt>
 <otherelement> = <lt>strong <strong_attributes> <attributes><gt><innerelements><lt>/strong<gt>
 <HTMLStyleElement> = <lt>style <style_attributes> <attributes><gt><htmlsafestring min=32 max=126><lt>/style<gt>
 <otherelement> = <lt>sub <sub_attributes> <attributes><gt><innerelements><lt>/sub<gt>
@@ -1086,13 +1073,11 @@
 <HTMLTitleElement> = <lt>title <title_attributes> <attributes><gt><htmlsafestring min=32 max=126><lt>/title<gt>
 <HTMLTableRowElement> = <lt>tr <tr_attributes> <attributes><gt><thelements><lt>/tr<gt>
 <HTMLTrackElement> = <lt>track <track_attributes> <attributes><gt><innerelements><lt>/track<gt>
-<otherelement> = <lt>tt <tt_attributes> <attributes><gt><innerelements><lt>/tt<gt>
 <otherelement> = <lt>u <u_attributes> <attributes><gt><innerelements><lt>/u<gt>
 <HTMLUListElement> = <lt>ul <ul_attributes> <attributes><gt><lielements><lt>/ul<gt>
 <otherelement> = <lt>var <var_attributes> <attributes><gt><innerelements><lt>/var<gt>
 <HTMLVideoElement> = <lt>video <video_attributes> <attributes><gt><mediachildren><lt>/video<gt>
 <otherelement> = <lt>wbr <wbr_attributes> <attributes><gt><innerelements><lt>/wbr<gt>
-<otherelement> = <lt>xmp <xmp_attributes> <attributes><gt><htmlsafestring min=32 max=126><lt>/xmp<gt>
 
 !include svg.txt
 !include svgattrvalues.txt
