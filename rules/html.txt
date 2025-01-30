@@ -454,6 +454,7 @@
 <attribute> = <attribute_autocorrect>
 <attribute> = <attribute_enterkeyhint>
 <attribute> = <attribute_exportparts>
+<attribute> = <attribute_part>
 
 <attribute> = <attribute_eventhandler>
 <attribute> = <attribute_eventhandler>
