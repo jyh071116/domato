@@ -841,6 +841,7 @@
 <attribute_autocorrect> = autocorrect="<autocorrect_value>"
 <attribute_enterkeyhint> = enterkeyhint="<enterkeyhint_value>"
 <attribute_exportparts> = exportparts="<exportparts_value>"
+<attribute_part> = part="<part_value>"
 
 #event handlers
 <attribute_onabort> = onabort="<eventhandler>"
