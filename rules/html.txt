@@ -455,6 +455,7 @@
 <attribute> = <attribute_enterkeyhint>
 <attribute> = <attribute_exportparts>
 <attribute> = <attribute_part>
+<attribute> = <attribute_writingsuggestions>
 
 <attribute> = <attribute_eventhandler>
 <attribute> = <attribute_eventhandler>
@@ -843,6 +844,7 @@
 <attribute_enterkeyhint> = enterkeyhint="<enterkeyhint_value>"
 <attribute_exportparts> = exportparts="<exportparts_value>"
 <attribute_part> = part="<part_value>"
+<attribute_writingsuggestions> = writingsuggestions="<writingsuggestions_value>"
 
 #event handlers
 <attribute_onabort> = onabort="<eventhandler>"

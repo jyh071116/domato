@@ -1363,4 +1363,8 @@
 <enterkeyhint_value> = send
 
 <exportparts_value> = <elementid>
+
 <part_value> = <elementid>
+
+<writingsuggestions_value> = false
+<writingsuggestions_value> = true
