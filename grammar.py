@@ -933,7 +933,7 @@ class Grammar(object):
     def _include_from_file(self, filename):
         filepath = os.path.join(self._definitions_dir, filename)
         try:
-            f = open(filepath)
+            f = open(filepath, encoding="utf-8")
             content = f.read()
             f.close()
         except IOError:
