@@ -1077,6 +1077,19 @@
 <cssproperty_value> = <cssproperty_aspect-ratio>
 <cssproperty_value> = <cssproperty_content-visibility>
 <cssproperty_value> = <cssproperty_forced-color-adjust>
+<cssproperty_value> = <cssproperty_border-block-width>
+<cssproperty_value> = <cssproperty_border-block-style>
+<cssproperty_value> = <cssproperty_border-block-start-width>
+<cssproperty_value> = <cssproperty_border-block-start-style>
+<cssproperty_value> = <cssproperty_border-block-start-color>
+<cssproperty_value> = <cssproperty_border-block-start>
+<cssproperty_value> = <cssproperty_border-block-end-width>
+<cssproperty_value> = <cssproperty_border-block-end-style>
+<cssproperty_value> = <cssproperty_border-block-end-color>
+<cssproperty_value> = <cssproperty_border-block-end>
+<cssproperty_value> = <cssproperty_border-block-color>
+<cssproperty_value> = <cssproperty_border-block>
+<cssproperty_value> = <cssproperty_background-position-y>
 
 <cssproperty> = -ms-flex-align: <cssproperty_-ms-flex-align>
 <cssproperty> = -ms-font-feature-settings: <cssproperty_-ms-font-feature-settings>
@@ -1558,6 +1571,19 @@
 <cssproperty> = all: <cssproperty_all>
 <cssproperty> = aspect-ratio: <cssproperty_aspect-ratio>
 <cssproperty> = content-visibility: <cssproperty_content-visibility>
+<cssproperty> = border-block-width: <cssproperty_border-block-width>
+<cssproperty> = border-block-style: <cssproperty_border-block-style>
+<cssproperty> = border-block-start-width: <cssproperty_border-block-start-width>
+<cssproperty> = border-block-start-style: <cssproperty_border-block-start-style>
+<cssproperty> = border-block-start-color: <cssproperty_border-block-start-color>
+<cssproperty> = border-block-start: <cssproperty_border-block-start>
+<cssproperty> = border-block-end-width: <cssproperty_border-block-end-width>
+<cssproperty> = border-block-end-style: <cssproperty_border-block-end-style>
+<cssproperty> = border-block-end-color: <cssproperty_border-block-end-color>
+<cssproperty> = border-block-end: <cssproperty_border-block-end>
+<cssproperty> = border-block-color: <cssproperty_border-block-color>
+<cssproperty> = border-block: <cssproperty_border-block>
+<cssproperty> = background-position-y: <cssproperty_background-position-y>
 
 
 !include cssproperties.txt

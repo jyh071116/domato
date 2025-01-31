@@ -3795,3 +3795,55 @@
 <cssproperty_unicode-range_val> = U+<int min=0 max=10000>??
 <cssproperty_unicode-range_val> = U+00125-001FF
 
+<cssproperty_border-block-width> = <fuzzint>px
+<cssproperty_border-block-width> = thick
+
+<cssproperty_border-block-style> = dashed
+<cssproperty_border-block-style> = dotted
+<cssproperty_border-block-style> = groove
+
+<cssproperty_border-block-start-width> = <fuzzint>px
+
+<cssproperty_border-block-start-style> = dashed
+<cssproperty_border-block-start-style> = dotted
+<cssproperty_border-block-start-style> = groove
+
+<cssproperty_border-block-start-color> = <color>
+
+<cssproperty_border-block-start> = <fuzzint>px
+<cssproperty_border-block-start> = <fuzzint>px dashed <color>
+<cssproperty_border-block-start> = <fuzzint>px dashed
+<cssproperty_border-block-start> = <fuzzint>px dotted <color>
+<cssproperty_border-block-start> = <fuzzint>px dotted
+<cssproperty_border-block-start> = <fuzzint>px groove <color>
+<cssproperty_border-block-start> = <fuzzint>px groove
+
+<cssproperty_border-block-end-width> = <fuzzint>px
+
+<cssproperty_border-block-end-style> = dashed
+<cssproperty_border-block-end-style> = dotted
+<cssproperty_border-block-end-style> = groove
+
+<cssproperty_border-block-end-color> = <color>
+
+<cssproperty_border-block-end> = <fuzzint>px
+<cssproperty_border-block-end> = <fuzzint>px dashed <color>
+<cssproperty_border-block-end> = <fuzzint>px dashed
+<cssproperty_border-block-end> = <fuzzint>px dotted <color>
+<cssproperty_border-block-end> = <fuzzint>px dotted
+<cssproperty_border-block-end> = <fuzzint>px groove <color>
+<cssproperty_border-block-end> = <fuzzint>px groove
+
+<cssproperty_border-block-color> = <color>
+
+<cssproperty_border-block> = <fuzzint>px
+<cssproperty_border-block> = <fuzzint>px dashed <color>
+<cssproperty_border-block> = <fuzzint>px dashed
+<cssproperty_border-block> = <fuzzint>px dotted <color>
+<cssproperty_border-block> = <fuzzint>px dotted
+<cssproperty_border-block> = <fuzzint>px groove <color>
+<cssproperty_border-block> = <fuzzint>px groove
+
+<cssproperty_background-position-y> = <percentage>%
+<cssproperty_background-position-y> = <fuzzint>px
+<cssproperty_background-position-y> = initial

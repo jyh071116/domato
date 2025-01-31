@@ -4466,6 +4466,19 @@
 <CSSStyleDeclaration>.setProperty("aspect-ratio", "<cssproperty_aspect-ratio>");
 <CSSStyleDeclaration>.setProperty("content-visibility", "<cssproperty_content-visibility>");
 <CSSStyleDeclaration>.setProperty("forced-color-adjust", "<cssproperty_forced-color-adjust>");
+<CSSStyleDeclaration>.setProperty("border-block-width", "<cssproperty_border-block-width>");
+<CSSStyleDeclaration>.setProperty("border-block-style", "<cssproperty_border-block-style>");
+<CSSStyleDeclaration>.setProperty("border-block-start-width", "<cssproperty_border-block-start-width>");
+<CSSStyleDeclaration>.setProperty("border-block-start-style", "<cssproperty_border-block-start-style>");
+<CSSStyleDeclaration>.setProperty("border-block-start-color", "<cssproperty_border-block-start-color>");
+<CSSStyleDeclaration>.setProperty("border-block-start", "<cssproperty_border-block-start>");
+<CSSStyleDeclaration>.setProperty("border-block-end-width", "<cssproperty_border-block-end-width>");
+<CSSStyleDeclaration>.setProperty("border-block-end-style", "<cssproperty_border-block-end-style>");
+<CSSStyleDeclaration>.setProperty("border-block-end-color", "<cssproperty_border-block-end-color>");
+<CSSStyleDeclaration>.setProperty("border-block-end", "<cssproperty_border-block-end>");
+<CSSStyleDeclaration>.setProperty("border-block-color", "<cssproperty_border-block-color>");
+<CSSStyleDeclaration>.setProperty("border-block", "<cssproperty_border-block>");
+<CSSStyleDeclaration>.setProperty("background-position-y", "<cssproperty_background-position-y>");
 
 document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
 document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
