@@ -267,33 +267,8 @@
 
 <cssproperty_-webkit-border-vertical-spacing> = <fuzzint>px
 
-<cssproperty_-webkit-box-align> = center
-<cssproperty_-webkit-box-align> = stretch
-<cssproperty_-webkit-box-align> = top
-
 <cssproperty_-webkit-box-decoration-break> = slice
 <cssproperty_-webkit-box-decoration-break> = clone
-
-<cssproperty_-webkit-box-direction> = reverse
-
-<cssproperty_-webkit-box-flex> = <fuzzint>
-
-<cssproperty_-webkit-box-flex-group> = <fuzzint>
-<cssproperty_-webkit-box-flex-group> = 1
-<cssproperty_-webkit-box-flex-group> = 2
-
-<cssproperty_-webkit-box-lines> = multiple
-
-<cssproperty_-webkit-box-ordinal-group> = <fuzzint>
-<cssproperty_-webkit-box-ordinal-group> = 1
-<cssproperty_-webkit-box-ordinal-group> = 2
-
-<cssproperty_-webkit-box-orient> = vertical
-<cssproperty_-webkit-box-orient> = horizontal
-<cssproperty_-webkit-box-orient> = block-axis
-
-<cssproperty_-webkit-box-pack> = justify
-<cssproperty_-webkit-box-pack> = end
 
 <cssproperty_-webkit-box-reflect> = above
 <cssproperty_-webkit-box-reflect> = right
@@ -817,8 +792,6 @@
 <cssproperty_align-self> = flex-start unsafe
 <cssproperty_align-self> = flex-end safe
 <cssproperty_align-self> = center safe
-
-<cssproperty_alignx> = left
 
 <cssproperty_animation> = anim <fuzzint>s
 <cssproperty_animation> = anim <fuzzint>s ease-in-out
@@ -1352,25 +1325,9 @@
 <cssproperty_bottom> = <fuzzint>em
 <cssproperty_bottom> = <fuzzint>cm
 
-<cssproperty_box-align> = center
-<cssproperty_box-align> = stretch
 
 <cssproperty_box-decoration-break> = slice
 <cssproperty_box-decoration-break> = clone
-
-<cssproperty_box-direction> = reverse
-
-<cssproperty_box-flex> = <fuzzint>
-
-<cssproperty_box-flex-group> = <fuzzint>
-
-<cssproperty_box-ordinal-group> = <fuzzint>
-
-<cssproperty_box-orient> = horizontal
-<cssproperty_box-orient> = vertical
-
-<cssproperty_box-pack> = justify
-<cssproperty_box-pack> = end
 
 <cssproperty_box-reflect> = right
 
@@ -2986,24 +2943,6 @@
 <cssproperty_page> = Auto Rotated
 <cssproperty_page> = <fuzzint>cm
 
-<cssproperty_page-break-after> = auto
-<cssproperty_page-break-after> = avoid
-<cssproperty_page-break-after> = always
-<cssproperty_page-break-after> = left
-<cssproperty_page-break-after> = right
-<cssproperty_page-break-after> = auto auto
-<cssproperty_page-break-after> = left always
-<cssproperty_page-break-after> = always always
-
-<cssproperty_page-break-before> = auto
-<cssproperty_page-break-before> = avoid
-<cssproperty_page-break-before> = always
-<cssproperty_page-break-before> = left
-<cssproperty_page-break-before> = right
-
-<cssproperty_page-break-inside> = avoid
-<cssproperty_page-break-inside> = auto
-
 <cssproperty_perspective> = <fuzzint>px
 <cssproperty_perspective> = inherit
 <cssproperty_perspective> = <fuzzint>
@@ -3789,6 +3728,34 @@
 <cssproperty_zoom> = <float>
 <cssproperty_zoom> = auto
 <cssproperty_zoom> = reset
+
+<cssproperty_accent-color> = <color>
+
+<cssproperty_all> = initial
+<cssproperty_all> = inherit
+<cssproperty_all> = unset
+
+<cssproperty_aspect-ratio> = <int min=1 max=1000> / <int min=1 max=1000>
+<cssproperty_aspect-ratio> = initial
+<cssproperty_aspect-ratio> = inherit
+
+<cssproperty_content-visibility> = visible
+<cssproperty_content-visibility> = hidden
+<cssproperty_content-visibility> = auto
+<cssproperty_content-visibility> = inherit
+<cssproperty_content-visibility> = initial
+<cssproperty_content-visibility> = revert
+<cssproperty_content-visibility> = revert-layer
+<cssproperty_content-visibility> = unset
+
+<cssproperty_forced-color-adjust> = auto
+<cssproperty_forced-color-adjust> = none
+<cssproperty_forced-color-adjust> = preserve-parent-color
+<cssproperty_forced-color-adjust> = inherit
+<cssproperty_forced-color-adjust> = initial
+<cssproperty_forced-color-adjust> = revert
+<cssproperty_forced-color-adjust> = revert-layer
+<cssproperty_forced-color-adjust> = unset
 
 # @font-face specific descriptor properties
 <cssproperty_ascent-override> = normal

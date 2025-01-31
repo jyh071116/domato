@@ -4024,15 +4024,7 @@
 <CSSStyleDeclaration>.setProperty("-webkit-border-top-left-radius", "<cssproperty_-webkit-border-top-left-radius>");
 <CSSStyleDeclaration>.setProperty("-webkit-border-top-right-radius", "<cssproperty_-webkit-border-top-right-radius>");
 <CSSStyleDeclaration>.setProperty("-webkit-border-vertical-spacing", "<cssproperty_-webkit-border-vertical-spacing>");
-<CSSStyleDeclaration>.setProperty("-webkit-box-align", "<cssproperty_-webkit-box-align>");
 <CSSStyleDeclaration>.setProperty("-webkit-box-decoration-break", "<cssproperty_-webkit-box-decoration-break>");
-<CSSStyleDeclaration>.setProperty("-webkit-box-direction", "<cssproperty_-webkit-box-direction>");
-<CSSStyleDeclaration>.setProperty("-webkit-box-flex", "<cssproperty_-webkit-box-flex>");
-<CSSStyleDeclaration>.setProperty("-webkit-box-flex-group", "<cssproperty_-webkit-box-flex-group>");
-<CSSStyleDeclaration>.setProperty("-webkit-box-lines", "<cssproperty_-webkit-box-lines>");
-<CSSStyleDeclaration>.setProperty("-webkit-box-ordinal-group", "<cssproperty_-webkit-box-ordinal-group>");
-<CSSStyleDeclaration>.setProperty("-webkit-box-orient", "<cssproperty_-webkit-box-orient>");
-<CSSStyleDeclaration>.setProperty("-webkit-box-pack", "<cssproperty_-webkit-box-pack>");
 <CSSStyleDeclaration>.setProperty("-webkit-box-reflect", "<cssproperty_-webkit-box-reflect>");
 <CSSStyleDeclaration>.setProperty("-webkit-box-shadow", "<cssproperty_-webkit-box-shadow>");
 <CSSStyleDeclaration>.setProperty("-webkit-box-sizing", "<cssproperty_-webkit-box-sizing>");
@@ -4140,7 +4132,6 @@
 <CSSStyleDeclaration>.setProperty("align-content", "<cssproperty_align-content>");
 <CSSStyleDeclaration>.setProperty("align-items", "<cssproperty_align-items>");
 <CSSStyleDeclaration>.setProperty("align-self", "<cssproperty_align-self>");
-<CSSStyleDeclaration>.setProperty("alignx", "<cssproperty_alignx>");
 <CSSStyleDeclaration>.setProperty("animation", "<cssproperty_animation>");
 <CSSStyleDeclaration>.setProperty("animation-delay", "<cssproperty_animation-delay>");
 <CSSStyleDeclaration>.setProperty("animation-direction", "<cssproperty_animation-direction>");
@@ -4201,14 +4192,7 @@
 <CSSStyleDeclaration>.setProperty("border-top-width", "<cssproperty_border-top-width>");
 <CSSStyleDeclaration>.setProperty("border-width", "<cssproperty_border-width>");
 <CSSStyleDeclaration>.setProperty("bottom", "<cssproperty_bottom>");
-<CSSStyleDeclaration>.setProperty("box-align", "<cssproperty_box-align>");
 <CSSStyleDeclaration>.setProperty("box-decoration-break", "<cssproperty_box-decoration-break>");
-<CSSStyleDeclaration>.setProperty("box-direction", "<cssproperty_box-direction>");
-<CSSStyleDeclaration>.setProperty("box-flex", "<cssproperty_box-flex>");
-<CSSStyleDeclaration>.setProperty("box-flex-group", "<cssproperty_box-flex-group>");
-<CSSStyleDeclaration>.setProperty("box-ordinal-group", "<cssproperty_box-ordinal-group>");
-<CSSStyleDeclaration>.setProperty("box-orient", "<cssproperty_box-orient>");
-<CSSStyleDeclaration>.setProperty("box-pack", "<cssproperty_box-pack>");
 <CSSStyleDeclaration>.setProperty("box-reflect", "<cssproperty_box-reflect>");
 <CSSStyleDeclaration>.setProperty("box-shadow", "<cssproperty_box-shadow>");
 <CSSStyleDeclaration>.setProperty("box-sizing", "<cssproperty_box-sizing>");
@@ -4385,9 +4369,6 @@
 <CSSStyleDeclaration>.setProperty("padding-right", "<cssproperty_padding-right>");
 <CSSStyleDeclaration>.setProperty("padding-top", "<cssproperty_padding-top>");
 <CSSStyleDeclaration>.setProperty("page", "<cssproperty_page>");
-<CSSStyleDeclaration>.setProperty("page-break-after", "<cssproperty_page-break-after>");
-<CSSStyleDeclaration>.setProperty("page-break-before", "<cssproperty_page-break-before>");
-<CSSStyleDeclaration>.setProperty("page-break-inside", "<cssproperty_page-break-inside>");
 <CSSStyleDeclaration>.setProperty("perspective", "<cssproperty_perspective>");
 <CSSStyleDeclaration>.setProperty("perspective-origin", "<cssproperty_perspective-origin>");
 <CSSStyleDeclaration>.setProperty("pointer-events", "<cssproperty_pointer-events>");
@@ -4479,6 +4460,12 @@
 
 <CSSStyleDeclaration>.setProperty("<cssvar>", <string_cssvalue>);
 <CSSStyleDeclaration>.setProperty(<string_cssproperty>, "var(<cssvar>)");
+
+<CSSStyleDeclaration>.setProperty("accent-color", "<cssproperty_accent-color>");
+<CSSStyleDeclaration>.setProperty("all", "<cssproperty_all>");
+<CSSStyleDeclaration>.setProperty("aspect-ratio", "<cssproperty_aspect-ratio>");
+<CSSStyleDeclaration>.setProperty("content-visibility", "<cssproperty_content-visibility>");
+<CSSStyleDeclaration>.setProperty("forced-color-adjust", "<cssproperty_forced-color-adjust>");
 
 document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);
 document.all[<int min=0 max=100>%document.all.length].appendChild(<Element>);

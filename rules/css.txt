@@ -155,15 +155,7 @@
 <cssproperty_name> = -webkit-border-top-left-radius
 <cssproperty_name> = -webkit-border-top-right-radius
 <cssproperty_name> = -webkit-border-vertical-spacing
-<cssproperty_name> = -webkit-box-align
 <cssproperty_name> = -webkit-box-decoration-break
-<cssproperty_name> = -webkit-box-direction
-<cssproperty_name> = -webkit-box-flex
-<cssproperty_name> = -webkit-box-flex-group
-<cssproperty_name> = -webkit-box-lines
-<cssproperty_name> = -webkit-box-ordinal-group
-<cssproperty_name> = -webkit-box-orient
-<cssproperty_name> = -webkit-box-pack
 <cssproperty_name> = -webkit-box-reflect
 <cssproperty_name> = -webkit-box-shadow
 <cssproperty_name> = -webkit-box-sizing
@@ -271,7 +263,6 @@
 <cssproperty_name> = align-content
 <cssproperty_name> = align-items
 <cssproperty_name> = align-self
-<cssproperty_name> = alignx
 <cssproperty_name> = animation
 <cssproperty_name> = animation-delay
 <cssproperty_name> = animation-direction
@@ -332,14 +323,7 @@
 <cssproperty_name> = border-top-width
 <cssproperty_name> = border-width
 <cssproperty_name> = bottom
-<cssproperty_name> = box-align
 <cssproperty_name> = box-decoration-break
-<cssproperty_name> = box-direction
-<cssproperty_name> = box-flex
-<cssproperty_name> = box-flex-group
-<cssproperty_name> = box-ordinal-group
-<cssproperty_name> = box-orient
-<cssproperty_name> = box-pack
 <cssproperty_name> = box-reflect
 <cssproperty_name> = box-shadow
 <cssproperty_name> = box-sizing
@@ -517,9 +501,6 @@
 <cssproperty_name> = padding-right
 <cssproperty_name> = padding-top
 <cssproperty_name> = page
-<cssproperty_name> = page-break-after
-<cssproperty_name> = page-break-before
-<cssproperty_name> = page-break-inside
 <cssproperty_name> = perspective
 <cssproperty_name> = perspective-origin
 <cssproperty_name> = pointer-events
@@ -608,6 +589,11 @@
 <cssproperty_name> = writing-mode
 <cssproperty_name> = z-index
 <cssproperty_name> = zoom
+<cssproperty_name> = accent-color
+<cssproperty_name> = all
+<cssproperty_name> = aspect-ratio
+<cssproperty_name> = content-visibility
+<cssproperty_name> = forced-color-adjust
 
 <cssproperty_value> = <cssproperty_-ms-flex-align>
 <cssproperty_value> = <cssproperty_-ms-font-feature-settings>
@@ -651,15 +637,7 @@
 <cssproperty_value> = <cssproperty_-webkit-border-top-left-radius>
 <cssproperty_value> = <cssproperty_-webkit-border-top-right-radius>
 <cssproperty_value> = <cssproperty_-webkit-border-vertical-spacing>
-<cssproperty_value> = <cssproperty_-webkit-box-align>
 <cssproperty_value> = <cssproperty_-webkit-box-decoration-break>
-<cssproperty_value> = <cssproperty_-webkit-box-direction>
-<cssproperty_value> = <cssproperty_-webkit-box-flex>
-<cssproperty_value> = <cssproperty_-webkit-box-flex-group>
-<cssproperty_value> = <cssproperty_-webkit-box-lines>
-<cssproperty_value> = <cssproperty_-webkit-box-ordinal-group>
-<cssproperty_value> = <cssproperty_-webkit-box-orient>
-<cssproperty_value> = <cssproperty_-webkit-box-pack>
 <cssproperty_value> = <cssproperty_-webkit-box-reflect>
 <cssproperty_value> = <cssproperty_-webkit-box-shadow>
 <cssproperty_value> = <cssproperty_-webkit-box-sizing>
@@ -767,7 +745,6 @@
 <cssproperty_value> = <cssproperty_align-content>
 <cssproperty_value> = <cssproperty_align-items>
 <cssproperty_value> = <cssproperty_align-self>
-<cssproperty_value> = <cssproperty_alignx>
 <cssproperty_value> = <cssproperty_animation>
 <cssproperty_value> = <cssproperty_animation-delay>
 <cssproperty_value> = <cssproperty_animation-direction>
@@ -828,14 +805,7 @@
 <cssproperty_value> = <cssproperty_border-top-width>
 <cssproperty_value> = <cssproperty_border-width>
 <cssproperty_value> = <cssproperty_bottom>
-<cssproperty_value> = <cssproperty_box-align>
 <cssproperty_value> = <cssproperty_box-decoration-break>
-<cssproperty_value> = <cssproperty_box-direction>
-<cssproperty_value> = <cssproperty_box-flex>
-<cssproperty_value> = <cssproperty_box-flex-group>
-<cssproperty_value> = <cssproperty_box-ordinal-group>
-<cssproperty_value> = <cssproperty_box-orient>
-<cssproperty_value> = <cssproperty_box-pack>
 <cssproperty_value> = <cssproperty_box-reflect>
 <cssproperty_value> = <cssproperty_box-shadow>
 <cssproperty_value> = <cssproperty_box-sizing>
@@ -1014,9 +984,6 @@
 <cssproperty_value> = <cssproperty_padding-right>
 <cssproperty_value> = <cssproperty_padding-top>
 <cssproperty_value> = <cssproperty_page>
-<cssproperty_value> = <cssproperty_page-break-after>
-<cssproperty_value> = <cssproperty_page-break-before>
-<cssproperty_value> = <cssproperty_page-break-inside>
 <cssproperty_value> = <cssproperty_perspective>
 <cssproperty_value> = <cssproperty_perspective-origin>
 <cssproperty_value> = <cssproperty_pointer-events>
@@ -1105,6 +1072,11 @@
 <cssproperty_value> = <cssproperty_writing-mode>
 <cssproperty_value> = <cssproperty_z-index>
 <cssproperty_value> = <cssproperty_zoom>
+<cssproperty_value> = <cssproperty_accent-color>
+<cssproperty_value> = <cssproperty_all>
+<cssproperty_value> = <cssproperty_aspect-ratio>
+<cssproperty_value> = <cssproperty_content-visibility>
+<cssproperty_value> = <cssproperty_forced-color-adjust>
 
 <cssproperty> = -ms-flex-align: <cssproperty_-ms-flex-align>
 <cssproperty> = -ms-font-feature-settings: <cssproperty_-ms-font-feature-settings>
@@ -1148,15 +1120,7 @@
 <cssproperty> = -webkit-border-top-left-radius: <cssproperty_-webkit-border-top-left-radius>
 <cssproperty> = -webkit-border-top-right-radius: <cssproperty_-webkit-border-top-right-radius>
 <cssproperty> = -webkit-border-vertical-spacing: <cssproperty_-webkit-border-vertical-spacing>
-<cssproperty> = -webkit-box-align: <cssproperty_-webkit-box-align>
 <cssproperty> = -webkit-box-decoration-break: <cssproperty_-webkit-box-decoration-break>
-<cssproperty> = -webkit-box-direction: <cssproperty_-webkit-box-direction>
-<cssproperty> = -webkit-box-flex: <cssproperty_-webkit-box-flex>
-<cssproperty> = -webkit-box-flex-group: <cssproperty_-webkit-box-flex-group>
-<cssproperty> = -webkit-box-lines: <cssproperty_-webkit-box-lines>
-<cssproperty> = -webkit-box-ordinal-group: <cssproperty_-webkit-box-ordinal-group>
-<cssproperty> = -webkit-box-orient: <cssproperty_-webkit-box-orient>
-<cssproperty> = -webkit-box-pack: <cssproperty_-webkit-box-pack>
 <cssproperty> = -webkit-box-reflect: <cssproperty_-webkit-box-reflect>
 <cssproperty> = -webkit-box-shadow: <cssproperty_-webkit-box-shadow>
 <cssproperty> = -webkit-box-sizing: <cssproperty_-webkit-box-sizing>
@@ -1264,7 +1228,6 @@
 <cssproperty> = align-content: <cssproperty_align-content>
 <cssproperty> = align-items: <cssproperty_align-items>
 <cssproperty> = align-self: <cssproperty_align-self>
-<cssproperty> = alignx: <cssproperty_alignx>
 <cssproperty> = animation: <cssproperty_animation>
 <cssproperty> = animation-delay: <cssproperty_animation-delay>
 <cssproperty> = animation-direction: <cssproperty_animation-direction>
@@ -1325,14 +1288,7 @@
 <cssproperty> = border-top-width: <cssproperty_border-top-width>
 <cssproperty> = border-width: <cssproperty_border-width>
 <cssproperty> = bottom: <cssproperty_bottom>
-<cssproperty> = box-align: <cssproperty_box-align>
 <cssproperty> = box-decoration-break: <cssproperty_box-decoration-break>
-<cssproperty> = box-direction: <cssproperty_box-direction>
-<cssproperty> = box-flex: <cssproperty_box-flex>
-<cssproperty> = box-flex-group: <cssproperty_box-flex-group>
-<cssproperty> = box-ordinal-group: <cssproperty_box-ordinal-group>
-<cssproperty> = box-orient: <cssproperty_box-orient>
-<cssproperty> = box-pack: <cssproperty_box-pack>
 <cssproperty> = box-reflect: <cssproperty_box-reflect>
 <cssproperty> = box-shadow: <cssproperty_box-shadow>
 <cssproperty> = box-sizing: <cssproperty_box-sizing>
@@ -1510,9 +1466,6 @@
 <cssproperty> = padding-right: <cssproperty_padding-right>
 <cssproperty> = padding-top: <cssproperty_padding-top>
 <cssproperty> = page: <cssproperty_page>
-<cssproperty> = page-break-after: <cssproperty_page-break-after>
-<cssproperty> = page-break-before: <cssproperty_page-break-before>
-<cssproperty> = page-break-inside: <cssproperty_page-break-inside>
 <cssproperty> = perspective: <cssproperty_perspective>
 <cssproperty> = perspective-origin: <cssproperty_perspective-origin>
 <cssproperty> = pointer-events: <cssproperty_pointer-events>
@@ -1601,6 +1554,10 @@
 <cssproperty> = writing-mode: <cssproperty_writing-mode>
 <cssproperty> = z-index: <cssproperty_z-index>
 <cssproperty> = zoom: <cssproperty_zoom>
+<cssproperty> = accent-color: <cssproperty_accent-color> 
+<cssproperty> = all: <cssproperty_all>
+<cssproperty> = aspect-ratio: <cssproperty_aspect-ratio>
+<cssproperty> = content-visibility: <cssproperty_content-visibility>
 
 
 !include cssproperties.txt
